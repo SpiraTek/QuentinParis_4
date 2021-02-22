@@ -309,7 +309,7 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
-}
+}   
 
 .nav-center .navbar-brand img {
     margin: 0;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -1027,6 +1027,26 @@ h4 {
         height: 320px;
     }
 }
+
+blockquote {
+    border: none;
+    margin: auto;
+    width: 50%;
+}
+
+.blockquote--2 {
+    width: auto;
+}
+
+
+.quote {
+    font-size: 20px;
+}
+
+.quote--caption {
+    font-size: 15px;
+}
+
 
 @media (max-width: 400px) {
     .bloc {
