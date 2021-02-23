@@ -1031,7 +1031,7 @@ h4 {
 blockquote {
     border: none;
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 .blockquote--2 {
@@ -1041,6 +1041,7 @@ blockquote {
 
 .quote {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .quote--caption {
