@@ -90,10 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -704,7 +700,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, h4 {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -779,7 +775,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #DF3602;
     color: #FFFFFF!important;
 }
 
@@ -1046,6 +1042,13 @@ blockquote {
 
 .quote--caption {
     font-size: 15px;
+}
+.bg-contrast{
+    background:rgba(165, 165, 165, 0.7);
+}
+
+.bloc-footer{
+    background-color: #DF3602;
 }
 
 
