@@ -515,6 +515,7 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    color: red;
 }
 
 .scrollToTop span {
@@ -1022,6 +1023,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 blockquote {
@@ -1051,6 +1057,24 @@ blockquote {
     background-color: #DF3602;
 }
 
+.bloc-7-maj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sm-6-contact{
+    display: flex;
+    margin-top: 25px;
+}
+.bloc-lg-maj {
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+}
+
+
 
 @media (max-width: 400px) {
     .bloc {
@@ -1062,5 +1086,17 @@ blockquote {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .img-responsive {
+        height: 250px;
+        width: 250px;
+        margin: auto;
+    }
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-sm-12 {
+        padding: 0;
     }
 }
