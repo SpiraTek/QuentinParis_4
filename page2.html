@@ -72,6 +72,7 @@
                     alt="Bannière la chouette agence webdesign Lyon"
                     width="386"
                     height="72"
+                    class="banniere"
                   />
                 </a>
                 <button
@@ -117,7 +118,7 @@
               <h1 class="text-center hero-bloc-text">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tight-width-whitespace">
+              <p class="text-center mg-lg tight-width-whitespace contact--head--txt">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.
                 <br />
@@ -141,11 +142,12 @@
               >
                 <div class="form-group">
                   <label>Nom</label>
-                  <input id="name" class="form-control" required />
+                  <input id="name" class="form-control" required aria-label="Nom"/>
                 </div>
                 <div class="form-group">
                   <label>Adresse email</label>
                   <input
+                    aria-label="Adresse email"
                     id="email"
                     class="form-control"
                     type="email"
@@ -155,6 +157,7 @@
                 <div class="form-group">
                   <label>Comment nous avez-vous connu ?</label>
                   <input
+                  aria-label="Comment nous avez-vous connu ?"
                     class="form-control"
                     type="email"
                     required
@@ -168,6 +171,8 @@
                     <br />
                   </label>
                   <textarea
+                    aria-label="Brief de votre projet (Ajoutez autant de détails que
+                    nécessaire)"
                     id="message"
                     class="form-control"
                     rows="4"
@@ -183,10 +188,10 @@
                 </button>
               </form>
             </div>
-            <div class="col-sm-6 sm-6-contact">
-              <address >
+            <div class="col-sm-6 sm-6-contact address">
+              <address>
               <p>
-                contact@lachouetteagence.com
+                <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
                 <br />
                 2 place Sathonay 69001 Lyon
                 <br />

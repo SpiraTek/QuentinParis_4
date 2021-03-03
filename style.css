@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 20px 50px;
 }
 
 .bloc-md {
@@ -649,7 +649,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -758,6 +758,10 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+
 }
 
 .bgc-white {
@@ -807,9 +811,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -1047,7 +1048,7 @@ blockquote {
     font-size: 15px;
 }
 .bg-contrast{
-    background:rgba(165, 165, 165, 0.7);
+    background:rgba(0, 0, 0, 0.7);
 }
 
 .bloc-footer{
@@ -1064,7 +1065,13 @@ blockquote {
 .sm-6-contact{
     display: flex;
     margin-top: 25px;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
 }
+
+
 .bloc-lg-maj {
     padding-top: 50px;
     display: block;
@@ -1073,6 +1080,16 @@ blockquote {
 .h2--bg {
     background-color: rgba(0, 0, 0, .6);
 }
+.banniere {
+    height: auto;
+    width: auto;
+}
+.contact--head--txt {
+    font-size: 16px;
+    
+}
+
+
 
 
 
@@ -1102,4 +1119,10 @@ blockquote {
         width: 90%;
         margin: auto;
     }
+    .sm-12-center {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
 }
