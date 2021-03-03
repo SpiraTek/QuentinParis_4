@@ -129,7 +129,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -280,7 +280,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .navbar {
@@ -733,7 +734,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -750,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,8 +777,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #DF3602;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1050,7 +1051,7 @@ blockquote {
 }
 
 .bloc-footer{
-    background-color: #DF3602;
+    background-color: #F3976C;
 }
 
 .bloc-7-maj {
@@ -1069,6 +1070,10 @@ blockquote {
     display: block;
     margin: auto;
 }
+.h2--bg {
+    background-color: rgba(0, 0, 0, .6);
+}
+
 
 
 
@@ -1094,5 +1099,7 @@ blockquote {
     }
     .col-sm-12 {
         padding: 0;
+        width: 90%;
+        margin: auto;
     }
 }
