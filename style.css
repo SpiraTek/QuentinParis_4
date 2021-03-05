@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 20px 50px;
+    padding: 100px 50px;
 }
 
 .bloc-md {
@@ -757,10 +757,11 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+    font-size: 25px;
     text-decoration: underline!important;
-    background-color:rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    border-radius: 1rem;
+
+    
+    
 
 }
 
@@ -975,7 +976,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px;
     }
     .bloc-sm,
     .bloc-md {
@@ -1027,6 +1028,7 @@ h4 {
         justify-content: space-around;
     }
 }
+/* Ajouts pour Accessibilité */
 
 blockquote {
     border: none;
@@ -1078,7 +1080,8 @@ blockquote {
     margin: auto;
 }
 .h2--bg {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
 }
 .banniere {
     height: auto;
